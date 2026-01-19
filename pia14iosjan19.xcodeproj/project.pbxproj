@@ -10,9 +10,22 @@
 		E8BC41E12F1E1EB300381349 /* pia14iosjan19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia14iosjan19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E8BC41F42F1E5A9700381349 /* Exceptions for "pia14iosjan19" folder in "pia14iosjan19" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E8BC41E02F1E1EB300381349 /* pia14iosjan19 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E8BC41E32F1E1EB300381349 /* pia14iosjan19 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E8BC41F42F1E5A9700381349 /* Exceptions for "pia14iosjan19" folder in "pia14iosjan19" target */,
+			);
 			path = pia14iosjan19;
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,7 @@
 				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pia14iosjan19/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hitta position";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -289,6 +303,7 @@
 				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pia14iosjan19/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hitta position";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
